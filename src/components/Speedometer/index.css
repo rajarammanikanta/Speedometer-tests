@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  max-height: 620px;
+  width: 60%;
+}
+.main-heading {
+  color: white;
+  font-family: 'roboto';
+  font-size: 40px;
+}
+.speed {
+  color: white;
+  font-family: 'roboto';
+}
+.accelerte-button {
+  background-color: #0b69ff;
+  color: white;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin: 5px;
+}
+.apply-button {
+  background-color: transparent;
+  color: white;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  border-radius: 15px;
+  border-color: white;
+  margin: 5px;
+}
+.description {
+  color: #94a3b8;
+  font-family: 'roboto';
+}
+
+@media screen and (max-width: 576px) {
+  .accelerte-button {
+    background-color: #0b69ff;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 15px;
+    font-size: 10px;
+    margin: 5px;
+  }
+}
